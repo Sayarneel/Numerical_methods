@@ -1,12 +1,9 @@
-x=float(input())
 def f(x):
     return x**2-10
-    print (f(x))
 def g(x):
     return 2*x
-    print (g(x))
-
+x=0.0000001
 for i in range(100):
-    x=x-f(x)/g(x)
+    x1=x-f(x)/g(x)
+    x=x1
 print(x)
-
